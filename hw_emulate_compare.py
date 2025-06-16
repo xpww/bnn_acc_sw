@@ -5,7 +5,7 @@ import numpy as np
 import random
 import os
 import time
-from utils.model import ECG_XNOR_Full_Bin, ECG_XNOR_Full_akx_plus_b,ECG_XNOR_Ori
+from utils.model import ECG_XNOR_Full_Bin, ECG_XNOR_Full_akx_plus_b
 from utils.OP import WeightOperation
 from utils.dataset import Loader
 from utils.engine import train, test_step
