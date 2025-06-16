@@ -29,6 +29,5 @@ python train.py
 python hw\_emulate\_compare.py
 
 ```
-```
 
 
