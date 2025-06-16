@@ -5,14 +5,13 @@
 1. Clone the repository:
 ```
 
-git clone [https://github.com/xpww/bnn\_acc\_sw.git](https://github.com/xpww/bnn_acc_sw.git)
-
+git clone https://github.com/xpww/bnn_acc_sw.git
 ```
 
 2. Unzip the ECG dataset:
 ```
 
-unzip ./ECG\_Dataset/ECG\_Dataset.zip -d ./ECG\_Dataset
+unzip ./ECG_Dataset/ECG_Dataset.zip -d ./ECG_Dataset
 
 ```
 
@@ -26,7 +25,7 @@ python train.py
 4. Run the hardware emulation and comparison:
 ```
 
-python hw\_emulate\_compare.py
+python hw_emulate_compare.py
 
 ```
 
