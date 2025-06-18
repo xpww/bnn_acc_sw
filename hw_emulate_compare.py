@@ -795,7 +795,7 @@ def main():
     # Check if a pre-trained model exists
     model_path = './models/ECG_Net_for_5_example.pth'
     if os.path.exists(model_path):
-        model = torch.load(model_path, weights_only=False)
+        model = torch.load(model_path)
         print(f"Loaded pre-trained model from {model_path}")
     else:
         num_epochs = 1000
