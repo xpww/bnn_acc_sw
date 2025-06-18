@@ -21,7 +21,7 @@ test_size = 0.2
 if classes_num == 5:
     batch_size = 512
     lr = 0.02
-    seed = 101
+    seed = 169
 else:
     batch_size = 8192
     lr = 0.02
